@@ -1,6 +1,6 @@
 package com.github.gluhov.structural.composite;
 
-public class Flight {
+public class FlightRunner {
     public static void main(String[] args) {
         FlightCrew flightCrew = new FlightCrew();
         Pilot firstPilot = new FirstPilot();
