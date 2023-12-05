@@ -2,7 +2,7 @@ package com.github.gluhov.creational.abstractfactory;
 
 import com.github.gluhov.creational.abstractfactory.airport.CivilAirportTeamFactory;
 
-public class InternationalAirport {
+public class InternationalAirportRunner {
     public static void main(String[] args) {
         AirportTeamFactory civilAirportTeamFactory = new CivilAirportTeamFactory();
         Pilot pilot = civilAirportTeamFactory.getPilot();
