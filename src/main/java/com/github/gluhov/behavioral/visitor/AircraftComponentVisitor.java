@@ -1,7 +1,7 @@
 package com.github.gluhov.behavioral.visitor;
 
 public interface AircraftComponentVisitor {
-    public void visit(Engine engine);
-    public void visit(Wing wing);
-    public void visit(Cockpit cockpit);
+    void visit(Engine engine);
+    void visit(Wing wing);
+    void visit(Cockpit cockpit);
 }
